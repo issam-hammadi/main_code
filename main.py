@@ -18,6 +18,7 @@ class MainWindow(QMainWindow):
         layout.addWidget(Push_button, 0,0)
         widget.setLayout(layout)
         self.setCentralWidget(widget)
+        self.show()
         
     def gotowebsite(self):
         QDesktopServices.openUrl(QUrl("https://www.irt-m2p.fr/fr"))
