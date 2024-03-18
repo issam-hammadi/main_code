@@ -12,7 +12,6 @@ class irtm2p(QWidget):
         resizedPixmap = pixmap.scaled(64, 64)
         self.setWindowIcon(QIcon(resizedPixmap))
 
-    
         logo_about = QLabel()
         logo_about.setPixmap(pixmap)
         logo_about.setScaledContents(True)
@@ -30,7 +29,7 @@ class irtm2p(QWidget):
         self.setLayout(layout)
 
 class MainWindow(QMainWindow):
-    #the main window class 
+    # The main window class 
     def __init__(self):
         super().__init__()
         button = QPushButton("Click")
@@ -87,6 +86,7 @@ class MainWindow(QMainWindow):
         # You can create more tabs in the same way
         self.window_with_tabs.resize(500, 400)
         self.window_with_tabs.show()
+
 # Run the GUI 
 if __name__ == "__main__":
     app = QApplication([])
