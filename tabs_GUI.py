@@ -7,7 +7,6 @@ class irtm2p(QWidget):
         super().__init__()
         self.setWindowTitle("IRT M2P")
         #self.setGeometry(100,100,200,100)
-        
         pixmap = QPixmap(logo_path)
         resizedPixmap = pixmap.scaled(64, 64)
         self.setWindowIcon(QIcon(resizedPixmap))
