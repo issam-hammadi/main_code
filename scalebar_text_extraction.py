@@ -27,7 +27,7 @@ OCR Engine modes:
 """
 
 # Image path 
-image_path = '/Users/issamhammadi/Documents/GitHub/code/Database/image_compressed.jpg'
+image_path = 'YOUR IMAGE PATH'
 
 # Read image
 RGB = io.imread(image_path)
